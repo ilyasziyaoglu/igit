@@ -27,16 +27,26 @@ There is no dependency.
   After you set that parent directory you can use igit in any directory. And to
   see current parent directory use 'igit pardir' command. If you want change
   target project just repeat the above instraction above.
+  
+  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.24.33.png?raw=true "Setting working directory 1")
  
 * To list all branches in your repos use 'igit ubrs' command.
+  
+  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.26.37.png?raw=true "Setting working directory 1")
 
 * To list current branches use 'igit brs'.
+  
+  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.25.18.png?raw=true "Setting working directory 1")
 
 * To delete branch use 'igit delete <branch_name>'
 
 * To switch branch of all repos use 'igit sw <branch_name>'. branch_name mean
   that branch names which listed by 'igit ubrs'. So you can copy and paste it
   easly.
+  
+  Note: For clean output, just have your git repos in the parent directory.
+  
+  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.25.58.png?raw=true "Setting working directory 1")
 
 * To create a new branch use 'igit new <new_branch_name>'. That will create a
   new branch for all your repos and will change all your repos to that new branch
