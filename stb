@@ -1,0 +1,2 @@
+~/igit/igit.sh lib | grep stb | cut -c26-32
+sed -i "" "s|${newver}|${oldver}|g" pom.xml
