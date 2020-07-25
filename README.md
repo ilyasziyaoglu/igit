@@ -13,7 +13,7 @@ and support are important to improve igit.
 ## Dependencies
 There is no dependency.
 
-## Installment
+## Install
 1. Cheange directory to 'igit/' that you cloned or downloaded.
 2. Give execute permission for install.sh by using 'chmod 755 install.sh'.
 3. Then execute that install file by using './install.sh'
