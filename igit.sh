@@ -5,12 +5,13 @@
 
 case $1 in
 set)
-	new="`pwd`"
-	sed -i "" "s|${new}|${"pardir="pardir}|g" ~/igit/igit.config
-	printf "\npardir = %s\n\n" `pwd`
+	new="pardir=`pwd`"
+	old="pardir=${pardir}"
+	sed -i "" "s|${old}|${new}|g" ~/igit/igit.config
+	printf "%s\n" $new
 	;;
 pardir)
-	printf "\npadir = %s\n\n" $pardir
+	echo $pardir
 	;;
 lib)
 	python3 ~/igit/libversions.py
