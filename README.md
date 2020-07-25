@@ -46,7 +46,7 @@ There is no dependency.
   
   Note: For clean output, just have your git repos in the parent directory.
   
-  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.25.58.png?raw=true "Setting working directory 1")
+  ![alt text](https://github.com/ilyasziyaoglu/igit/blob/master/Screen%20Shot%202020-07-25%20at%2017.35.39.png?raw=true "Setting working directory 1")
 
 * To create a new branch use 'igit new <new_branch_name>'. That will create a
   new branch for all your repos and will change all your repos to that new branch
