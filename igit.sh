@@ -15,6 +15,7 @@ pardir)
 	;;
 uninstall)
 	~/igit/uninstall.sh
+	;;
 lib)
 	python3 ~/igit/libversions.py
 	;;
